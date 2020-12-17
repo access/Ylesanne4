@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "Rooms name list";
+        title = "Rooms name list"
         roomsService = Common.retrofitService
         roomsLayout = LinearLayoutManager(this)
         getAllRooms()
